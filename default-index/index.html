@@ -126,7 +126,7 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">2</span>
+          <span class="site-state-item-count">3</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
@@ -166,6 +166,181 @@
 
 
     <div class="main-inner index posts-expand">
+
+    
+
+
+<div class="post-block">
+  
+  
+
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+    <link itemprop="mainEntityOfPage" href="http://hitsziot.github.io/2022/10/11/MAXIM/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="HITSZ IoT">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="HITSZ IoT">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
+      <meta itemprop="name" content="undefined | HITSZ IoT">
+      <meta itemprop="description" content="">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          <a href="/2022/10/11/MAXIM/" class="post-title-link" itemprop="url">MAXIM</a>
+        </h2>
+
+        <div class="post-meta-container">
+          <div class="post-meta">
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar"></i>
+      </span>
+      <span class="post-meta-item-text">Posted on</span>
+      
+
+      <time title="Created: 2022-10-11 15:05:56 / Modified: 15:57:25" itemprop="dateCreated datePublished" datetime="2022-10-11T15:05:56+08:00">2022-10-11</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-folder"></i>
+      </span>
+      <span class="post-meta-item-text">In</span>
+        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+          <a href="/categories/Speech-Enhancement/" itemprop="url" rel="index"><span itemprop="name">Speech Enhancement</span></a>
+        </span>
+    </span>
+
+  
+</div>
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+          <h2 id="Abstract"><a href="#Abstract" class="headerlink" title="Abstract"></a>Abstract</h2><p>FullSubNet has shown its promising performance on speech enhancement by utilizing both fullband and subband information. However, the relationship between fullband and subband in FullSubNet is achieved by simply concatenating the output of fullband model and subband units. It has not considered the interaction between fullband and subband. This paper proposes a fullband-subband cross-attention (FSCA) module to interactively fuse the global and local spectral information and applies it to FullSubNet. This new framework is called as FS-CANet. Moreover, different from FullSubNet, the proposed FS-CANet optimize the fullband extractor by temporal convolutional network (TCN) blocks to further reduce the model size. Experimental results on DNS Challenge - Interspeech 2021 dataset show that the proposed FS-CANet outperforms other state-of-the-art speech enhancement approaches, and demonstrate the effectiveness of fullband-subband cross-attention.</p>
+<h2 id="Result-Display"><a href="#Result-Display" class="headerlink" title="Result Display"></a>Result Display</h2><table>
+<thead>
+<tr>
+<th align="center"><strong>case 1</strong></th>
+<th align="center"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center"><strong>Reverberation</strong><br><audio controls><source src="./MAXIM/rirclean/1clean_fileid_133.wav" type="audio/wav">Your browser does not support the audio element.</audio></td>
+<td align="center"><strong>Reverberation+Noise</strong><br><audio controls><source src="./MAXIM/rirnoisy/1rirnoisy_fileid_133.wav" type="audio/wav">Your browser does not support the audio element.</audio></td>
+</tr>
+<tr>
+<td align="center"><strong><img src="./MAXIM/rirclean/1clean_fileid_133.png" alt="flowtron_0.0" style="zoom: 80%;" /></strong></td>
+<td align="center"><strong><img src="./MAXIM/rirnoisy/1rirnoisy_fileid_133.png" alt="flowtron_0.0" style="zoom: 80%;" /></strong></td>
+</tr>
+<tr>
+<td align="center"><strong>MAXIM</strong><br><audio controls><source src="./MAXIM/MAXIM/1rirnoisy_fileid_133.wav" type="audio/wav">Your browser does not support the audio element.</audio></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><img src="./MAXIM/MAXIM/1rirnoisy_fileid_133.png" alt="flowtron_0.0" style="zoom: 80%;" /></td>
+<td align="center"></td>
+</tr>
+</tbody></table>
+<table>
+<thead>
+<tr>
+<th align="center"><strong>case 2</strong></th>
+<th align="center"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center"><strong>Reverberation</strong><br><audio controls><source src="./MAXIM/rirclean/1clean_fileid_191.wav" type="audio/wav">Your browser does not support the audio element.</audio></td>
+<td align="center"><strong>Reverberation+Noise</strong><br><audio controls><source src="./MAXIM/rirnoisy/1rirnoisy_fileid_191.wav" type="audio/wav">Your browser does not support the audio element.</audio></td>
+</tr>
+<tr>
+<td align="center"><strong><img src="./MAXIM/rirclean/1clean_fileid_191.png" alt="flowtron_0.0" style="zoom: 80%;" /></strong></td>
+<td align="center"><strong><img src="./MAXIM/rirnoisy/1rirnoisy_fileid_191.png" alt="flowtron_0.0" style="zoom: 80%;" /></strong></td>
+</tr>
+<tr>
+<td align="center"><strong>MAXIM</strong><br><audio controls><source src="./MAXIM/MAXIM/1rirnoisy_fileid_191.wav" type="audio/wav">Your browser does not support the audio element.</audio></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><img src="./MAXIM/MAXIM/1rirnoisy_fileid_191.png" alt="flowtron_0.0" style="zoom: 80%;" /></td>
+<td align="center"></td>
+</tr>
+</tbody></table>
+<table>
+<thead>
+<tr>
+<th align="center"><strong>case 3</strong></th>
+<th align="center"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center"><strong>Reverberation</strong><br><audio controls><source src="./MAXIM/rirclean/1clean_fileid_2.wav" type="audio/wav">Your browser does not support the audio element.</audio></td>
+<td align="center"><strong>Reverberation+Noise</strong><br><audio controls><source src="./MAXIM/rirnoisy/1rirnoisy_fileid_2.wav" type="audio/wav">Your browser does not support the audio element.</audio></td>
+</tr>
+<tr>
+<td align="center"><strong><img src="./MAXIM/rirclean/1clean_fileid_2.png" alt="flowtron_0.0" style="zoom: 80%;" /></strong></td>
+<td align="center"><strong><img src="./MAXIM/rirnoisy/1rirnoisy_fileid_2.png" alt="flowtron_0.0" style="zoom: 80%;" /></strong></td>
+</tr>
+<tr>
+<td align="center"><strong>MAXIM</strong><br><audio controls><source src="./MAXIM/MAXIM/1rirnoisy_fileid_2.wav" type="audio/wav">Your browser does not support the audio element.</audio></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><img src="./MAXIM/MAXIM/1rirnoisy_fileid_2.png" alt="flowtron_0.0" style="zoom: 80%;" /></td>
+<td align="center"></td>
+</tr>
+</tbody></table>
+<table>
+<thead>
+<tr>
+<th align="center"><strong>case 4</strong></th>
+<th align="center"></th>
+</tr>
+</thead>
+<tbody><tr>
+<td align="center"><strong>Reverberation</strong><br><audio controls><source src="./MAXIM/rirclean/1clean_fileid_411.wav" type="audio/wav">Your browser does not support the audio element.</audio></td>
+<td align="center"><strong>Reverberation+Noise</strong><br><audio controls><source src="./MAXIM/rirnoisy/1rirnoisy_fileid_411.wav" type="audio/wav">Your browser does not support the audio element.</audio></td>
+</tr>
+<tr>
+<td align="center"><strong><img src="./MAXIM/rirclean/1clean_fileid_411.png" alt="flowtron_0.0" style="zoom: 80%;" /></strong></td>
+<td align="center"><strong><img src="./MAXIM/rirnoisy/1rirnoisy_fileid_411.png" alt="flowtron_0.0" style="zoom: 80%;" /></strong></td>
+</tr>
+<tr>
+<td align="center"><strong>MAXIM</strong><br><audio controls><source src="./MAXIM/MAXIM/1rirnoisy_fileid_411.wav" type="audio/wav">Your browser does not support the audio element.</audio></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center"><img src="./MAXIM/MAXIM/1rirnoisy_fileid_411.png" alt="flowtron_0.0" style="zoom: 80%;" /></td>
+<td align="center"></td>
+</tr>
+</tbody></table>
+
+      
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+</div>
+
+
+
 
     
 
