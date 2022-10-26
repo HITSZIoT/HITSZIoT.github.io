@@ -126,7 +126,7 @@
   <nav class="site-state">
       <div class="site-state-item site-state-posts">
         <a href="/archives/">
-          <span class="site-state-item-count">3</span>
+          <span class="site-state-item-count">2</span>
           <span class="site-state-item-name">posts</span>
         </a>
       </div>
@@ -193,7 +193,7 @@
     </span>
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
-          <a href="/2022/10/11/MAXIM/" class="post-title-link" itemprop="url">MAXIM</a>
+          <a href="/2022/10/11/MAXIM/" class="post-title-link" itemprop="url">Two-stage UNet with multi-axis gated multilayer perceptron for monaural noisy-reverberant speech enhancement</a>
         </h2>
 
         <div class="post-meta-container">
@@ -203,9 +203,15 @@
         <i class="far fa-calendar"></i>
       </span>
       <span class="post-meta-item-text">Posted on</span>
-      
 
-      <time title="Created: 2022-10-11 15:05:56 / Modified: 16:15:16" itemprop="dateCreated datePublished" datetime="2022-10-11T15:05:56+08:00">2022-10-11</time>
+      <time title="Created: 2022-10-11 15:05:56" itemprop="dateCreated datePublished" datetime="2022-10-11T15:05:56+08:00">2022-10-11</time>
+    </span>
+    <span class="post-meta-item">
+      <span class="post-meta-item-icon">
+        <i class="far fa-calendar-check"></i>
+      </span>
+      <span class="post-meta-item-text">Edited on</span>
+      <time title="Modified: 2022-10-26 17:27:26" itemprop="dateModified" datetime="2022-10-26T17:27:26+08:00">2022-10-26</time>
     </span>
     <span class="post-meta-item">
       <span class="post-meta-item-icon">
@@ -227,8 +233,7 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <h2 id="Abstract"><a href="#Abstract" class="headerlink" title="Abstract"></a>Abstract</h2><p>FullSubNet has shown its promising performance on speech enhancement by utilizing both fullband and subband information. However, the relationship between fullband and subband in FullSubNet is achieved by simply concatenating the output of fullband model and subband units. It has not considered the interaction between fullband and subband. This paper proposes a fullband-subband cross-attention (FSCA) module to interactively fuse the global and local spectral information and applies it to FullSubNet. This new framework is called as FS-CANet. Moreover, different from FullSubNet, the proposed FS-CANet optimize the fullband extractor by temporal convolutional network (TCN) blocks to further reduce the model size. Experimental results on DNS Challenge - Interspeech 2021 dataset show that the proposed FS-CANet outperforms other state-of-the-art speech enhancement approaches, and demonstrate the effectiveness of fullband-subband cross-attention.</p>
-<h2 id="Result-Display"><a href="#Result-Display" class="headerlink" title="Result Display"></a>Result Display</h2><table>
+          <h1 id="Result-Display"><a href="#Result-Display" class="headerlink" title="Result Display"></a>Result Display</h1><table>
 <thead>
 <tr>
 <th align="center"><strong>case 1</strong></th>
@@ -245,11 +250,11 @@
 </tr>
 <tr>
 <td align="center"><strong>MAXIM</strong><br><audio controls><source src="./MAXIM/MAXIM/1rirnoisy_fileid_133.wav" type="audio/wav">Your browser does not support the audio element.</audio></td>
-<td align="center"></td>
+<td align="center"><strong>Clean</strong><br><audio controls><source src="./MAXIM/clean/1clean_fileid_133.wav" type="audio/wav">Your browser does not support the audio element.</audio></td>
 </tr>
 <tr>
 <td align="center"><img src="./MAXIM/MAXIM/1rirnoisy_fileid_133.png" alt="flowtron_0.0" style="zoom: 60%;" /></td>
-<td align="center"></td>
+<td align="center"><img src="./MAXIM/clean/1clean_fileid_133.png" alt="flowtron_0.0" style="zoom: 60%;" /></td>
 </tr>
 </tbody></table>
 <table>
@@ -269,11 +274,11 @@
 </tr>
 <tr>
 <td align="center"><strong>MAXIM</strong><br><audio controls><source src="./MAXIM/MAXIM/1rirnoisy_fileid_191.wav" type="audio/wav">Your browser does not support the audio element.</audio></td>
-<td align="center"></td>
+<td align="center"><strong>Clean</strong><br><audio controls><source src="./MAXIM/clean/1clean_fileid_191.wav" type="audio/wav">Your browser does not support the audio element.</audio></td>
 </tr>
 <tr>
 <td align="center"><img src="./MAXIM/MAXIM/1rirnoisy_fileid_191.png" alt="flowtron_0.0" style="zoom: 60%;" /></td>
-<td align="center"></td>
+<td align="center"><img src="./MAXIM/clean/1clean_fileid_191.png" alt="flowtron_0.0" style="zoom: 60%;" /></td>
 </tr>
 </tbody></table>
 <table>
@@ -293,11 +298,11 @@
 </tr>
 <tr>
 <td align="center"><strong>MAXIM</strong><br><audio controls><source src="./MAXIM/MAXIM/1rirnoisy_fileid_2.wav" type="audio/wav">Your browser does not support the audio element.</audio></td>
-<td align="center"></td>
+<td align="center"><strong>Clean</strong><br><audio controls><source src="./MAXIM/clean/1clean_fileid_2.wav" type="audio/wav">Your browser does not support the audio element.</audio></td>
 </tr>
 <tr>
 <td align="center"><img src="./MAXIM/MAXIM/1rirnoisy_fileid_2.png" alt="flowtron_0.0" style="zoom: 60%;" /></td>
-<td align="center"></td>
+<td align="center"><img src="./MAXIM/clean/1clean_fileid_2.png" alt="flowtron_0.0" style="zoom: 60%;" /></td>
 </tr>
 </tbody></table>
 <table>
@@ -317,288 +322,11 @@
 </tr>
 <tr>
 <td align="center"><strong>MAXIM</strong><br><audio controls><source src="./MAXIM/MAXIM/1rirnoisy_fileid_411.wav" type="audio/wav">Your browser does not support the audio element.</audio></td>
-<td align="center"></td>
+<td align="center"><strong>Clean</strong><br><audio controls><source src="./MAXIM/clean/1clean_fileid_411.wav" type="audio/wav">Your browser does not support the audio element.</audio></td>
 </tr>
 <tr>
 <td align="center"><img src="./MAXIM/MAXIM/1rirnoisy_fileid_411.png" alt="flowtron_0.0" style="zoom: 60%;" /></td>
-<td align="center"></td>
-</tr>
-</tbody></table>
-
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
-
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://hitsziot.github.io/2022/10/09/FSCAT/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="HITSZ IoT">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="HITSZ IoT">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | HITSZ IoT">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2022/10/09/FSCAT/" class="post-title-link" itemprop="url">Speech Enhancement with Fullband-Subband Cross-Attention Network</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">Posted on</span>
-
-      <time title="Created: 2022-10-09 19:30:27" itemprop="dateCreated datePublished" datetime="2022-10-09T19:30:27+08:00">2022-10-09</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar-check"></i>
-      </span>
-      <span class="post-meta-item-text">Edited on</span>
-      <time title="Modified: 2022-10-10 15:28:10" itemprop="dateModified" datetime="2022-10-10T15:28:10+08:00">2022-10-10</time>
-    </span>
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-folder"></i>
-      </span>
-      <span class="post-meta-item-text">In</span>
-        <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-          <a href="/categories/Speech-Enhancement/" itemprop="url" rel="index"><span itemprop="name">Speech Enhancement</span></a>
-        </span>
-    </span>
-
-  
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <h2 id="Abstract"><a href="#Abstract" class="headerlink" title="Abstract"></a>Abstract</h2><p>FullSubNet has shown its promising performance on speech enhancement by utilizing both fullband and subband information. However, the relationship between fullband and subband in FullSubNet is achieved by simply concatenating the output of fullband model and subband units. It has not considered the interaction between fullband and subband. This paper proposes a fullband-subband cross-attention (FSCA) module to interactively fuse the global and local spectral information and applies it to FullSubNet. This new framework is called as FS-CANet. Moreover, different from FullSubNet, the proposed FS-CANet optimize the fullband extractor by temporal convolutional network (TCN) blocks to further reduce the model size. Experimental results on DNS Challenge - Interspeech 2021 dataset show that the proposed FS-CANet outperforms other state-of-the-art speech enhancement approaches, and demonstrate the effectiveness of fullband-subband cross-attention.</p>
-<h2 id="With-Reverberation"><a href="#With-Reverberation" class="headerlink" title="With Reverberation"></a>With Reverberation</h2><table>
-<thead>
-<tr>
-<th align="center"><strong>case 1</strong></th>
-<th align="center"></th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center"><strong>Noisy</strong><br><audio controls><source src="./with_reverb/example63/noisy.wav" type="audio/wav">Your browser does not support the audio element.</audio></td>
-<td align="center"><strong>FullSubNet</strong><br><audio controls><source src="./with_reverb/example63/fullsubnet.wav" type="audio/wav">Your browser does not support the audio element.</audio></td>
-</tr>
-<tr>
-<td align="center"><strong><img src="./with_reverb/example63/noisy.png" alt="flowtron_0.0" style="zoom: 80%;" /></strong></td>
-<td align="center"><strong><img src="./with_reverb/example63/fullsubnet.png" alt="flowtron_0.0" style="zoom: 80%;" /></strong></td>
-</tr>
-<tr>
-<td align="center"><strong>FS-CANet</strong><br><audio controls><source src="./with_reverb/example63/fscanet.wav" type="audio/wav">Your browser does not support the audio element.</audio></td>
-<td align="center"><strong>Clean</strong><br><audio controls><source src="./with_reverb/example63/clean.wav" type="audio/wav">Your browser does not support the audio element.</audio></td>
-</tr>
-<tr>
-<td align="center"><img src="./with_reverb/example63/fscanet.png" alt="flowtron_0.0" style="zoom: 80%;" /></td>
-<td align="center"><img src="./with_reverb/example63/clean.png" alt="flowtron_0.0" style="zoom: 80%;" /></td>
-</tr>
-</tbody></table>
-<table>
-<thead>
-<tr>
-<th align="center"><strong>case 2</strong></th>
-<th align="center"></th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center"><strong>Noisy</strong><br><audio controls><source src="./with_reverb/example249/noisy.wav" type="audio/wav">Your browser does not support the audio element.</audio></td>
-<td align="center"><strong>FullSubNet</strong><br><audio controls><source src="./with_reverb/example249/fullsubnet.wav" type="audio/wav">Your browser does not support the audio element.</audio></td>
-</tr>
-<tr>
-<td align="center"><strong><img src="./with_reverb/example249/noisy.png" alt="flowtron_0.0" style="zoom: 80%;" /></strong></td>
-<td align="center"><strong><img src="./with_reverb/example249/fullsubnet.png" alt="flowtron_0.0" style="zoom: 80%;" /></strong></td>
-</tr>
-<tr>
-<td align="center"><strong>FS-CANet</strong><br><audio controls><source src="./with_reverb/example249/fscanet.wav" type="audio/wav">Your browser does not support the audio element.</audio></td>
-<td align="center"><strong>Clean</strong><br><audio controls><source src="./with_reverb/example249/clean.wav" type="audio/wav">Your browser does not support the audio element.</audio></td>
-</tr>
-<tr>
-<td align="center"><img src="./with_reverb/example249/fscanet.png" alt="flowtron_0.0" style="zoom: 80%;" /></td>
-<td align="center"><img src="./with_reverb/example249/clean.png" alt="flowtron_0.0" style="zoom: 80%;" /></td>
-</tr>
-</tbody></table>
-<table>
-<thead>
-<tr>
-<th align="center"><strong>case 3</strong></th>
-<th align="center"></th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center"><strong>Noisy</strong><br><audio controls><source src="./with_reverb/example206/noisy.wav" type="audio/wav">Your browser does not support the audio element.</audio></td>
-<td align="center"><strong>FullSubNet</strong><br><audio controls><source src="./with_reverb/example206/fullsubnet.wav" type="audio/wav">Your browser does not support the audio element.</audio></td>
-</tr>
-<tr>
-<td align="center"><strong><img src="./with_reverb/example206/noisy.png" alt="flowtron_0.0" style="zoom: 80%;" /></strong></td>
-<td align="center"><strong><img src="./with_reverb/example206/fullsubnet.png" alt="flowtron_0.0" style="zoom: 80%;" /></strong></td>
-</tr>
-<tr>
-<td align="center"><strong>FS-CANet</strong><br><audio controls><source src="./with_reverb/example206/fscanet.wav" type="audio/wav">Your browser does not support the audio element.</audio></td>
-<td align="center"><strong>Clean</strong><br><audio controls><source src="./with_reverb/example206/clean.wav" type="audio/wav">Your browser does not support the audio element.</audio></td>
-</tr>
-<tr>
-<td align="center"><img src="./with_reverb/example206/fscanet.png" alt="flowtron_0.0" style="zoom: 80%;" /></td>
-<td align="center"><img src="./with_reverb/example206/clean.png" alt="flowtron_0.0" style="zoom: 80%;" /></td>
-</tr>
-</tbody></table>
-<table>
-<thead>
-<tr>
-<th align="center"><strong>case 4</strong></th>
-<th align="center"></th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center"><strong>Noisy</strong><br><audio controls><source src="./with_reverb/example26/noisy.wav" type="audio/wav">Your browser does not support the audio element.</audio></td>
-<td align="center"><strong>FullSubNet</strong><br><audio controls><source src="./with_reverb/example26/fullsubnet.wav" type="audio/wav">Your browser does not support the audio element.</audio></td>
-</tr>
-<tr>
-<td align="center"><strong><img src="./with_reverb/example26/noisy.png" alt="flowtron_0.0" style="zoom: 80%;" /></strong></td>
-<td align="center"><strong><img src="./with_reverb/example26/fullsubnet.png" alt="flowtron_0.0" style="zoom: 80%;" /></strong></td>
-</tr>
-<tr>
-<td align="center"><strong>FS-CANet</strong><br><audio controls><source src="./with_reverb/example26/fscanet.wav" type="audio/wav">Your browser does not support the audio element.</audio></td>
-<td align="center"><strong>Clean</strong><br><audio controls><source src="./with_reverb/example26/clean.wav" type="audio/wav">Your browser does not support the audio element.</audio></td>
-</tr>
-<tr>
-<td align="center"><img src="./with_reverb/example26/fscanet.png" alt="flowtron_0.0" style="zoom: 80%;" /></td>
-<td align="center"><img src="./with_reverb/example26/clean.png" alt="flowtron_0.0" style="zoom: 80%;" /></td>
-</tr>
-</tbody></table>
-<h2 id="Without-Reverberation"><a href="#Without-Reverberation" class="headerlink" title="Without Reverberation"></a>Without Reverberation</h2><table>
-<thead>
-<tr>
-<th align="center"><strong>case 1</strong></th>
-<th align="center"></th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center"><strong>Noisy</strong><br><audio controls><source src="./no_reverb/example63/noisy.wav" type="audio/wav">Your browser does not support the audio element.</audio></td>
-<td align="center"><strong>FullSubNet</strong><br><audio controls><source src="./no_reverb/example63/fullsubnet.wav" type="audio/wav">Your browser does not support the audio element.</audio></td>
-</tr>
-<tr>
-<td align="center"><strong><img src="./no_reverb/example63/noisy.png" alt="flowtron_0.0" style="zoom: 80%;" /></strong></td>
-<td align="center"><img src="./no_reverb/example63/fullsubnet.png" alt="flowtron_0.0" style="zoom: 80%;" /></td>
-</tr>
-<tr>
-<td align="center"><strong>FS-CANet</strong><br><audio controls><source src="./no_reverb/example63/fscanet.wav" type="audio/wav">Your browser does not support the audio element.</audio></td>
-<td align="center"><strong>Clean</strong><br><audio controls><source src="./no_reverb/example63/clean.wav" type="audio/wav">Your browser does not support the audio element.</audio></td>
-</tr>
-<tr>
-<td align="center"><img src="./no_reverb/example63/fscanet.png" alt="flowtron_0.0" style="zoom: 80%;" /></td>
-<td align="center"><img src="./no_reverb/example63/clean.png" alt="flowtron_0.0" style="zoom: 80%;" /></td>
-</tr>
-</tbody></table>
-<table>
-<thead>
-<tr>
-<th align="center"><strong>case 2</strong></th>
-<th align="center"></th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center"><strong>Noisy</strong><br><audio controls><source src="./no_reverb/example67/noisy.wav" type="audio/wav">Your browser does not support the audio element.</audio></td>
-<td align="center"><strong>FullSubNet</strong><br><audio controls><source src="./no_reverb/example67/fullsubnet.wav" type="audio/wav">Your browser does not support the audio element.</audio></td>
-</tr>
-<tr>
-<td align="center"><strong><img src="./no_reverb/example67/noisy.png" alt="flowtron_0.0" style="zoom: 80%;" /></strong></td>
-<td align="center"><img src="./no_reverb/example67/fullsubnet.png" alt="flowtron_0.0" style="zoom: 80%;" /></td>
-</tr>
-<tr>
-<td align="center"><strong>FS-CANet</strong><br><audio controls><source src="./no_reverb/example67/fscanet.wav" type="audio/wav">Your browser does not support the audio element.</audio></td>
-<td align="center"><strong>Clean</strong><br><audio controls><source src="./no_reverb/example67/clean.wav" type="audio/wav">Your browser does not support the audio element.</audio></td>
-</tr>
-<tr>
-<td align="center"><img src="./no_reverb/example67/fscanet.png" alt="flowtron_0.0" style="zoom: 80%;" /></td>
-<td align="center"><img src="./no_reverb/example67/clean.png" alt="flowtron_0.0" style="zoom: 80%;" /></td>
-</tr>
-</tbody></table>
-<table>
-<thead>
-<tr>
-<th align="center"><strong>case 3</strong></th>
-<th align="center"></th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center"><strong>Noisy</strong><br><audio controls><source src="./no_reverb/example145/noisy.wav" type="audio/wav">Your browser does not support the audio element.</audio></td>
-<td align="center"><strong>FullSubNet</strong><br><audio controls><source src="./no_reverb/example145/fullsubnet.wav" type="audio/wav">Your browser does not support the audio element.</audio></td>
-</tr>
-<tr>
-<td align="center"><strong><img src="./no_reverb/example145/noisy.png" alt="flowtron_0.0" style="zoom: 80%;" /></strong></td>
-<td align="center"><img src="./no_reverb/example145/fullsubnet.png" alt="flowtron_0.0" style="zoom: 80%;" /></td>
-</tr>
-<tr>
-<td align="center"><strong>FS-CANet</strong><br><audio controls><source src="./no_reverb/example145/fscanet.wav" type="audio/wav">Your browser does not support the audio element.</audio></td>
-<td align="center"><strong>Clean</strong><br><audio controls><source src="./no_reverb/example145/clean.wav" type="audio/wav">Your browser does not support the audio element.</audio></td>
-</tr>
-<tr>
-<td align="center"><img src="./no_reverb/example145/fscanet.png" alt="flowtron_0.0" style="zoom: 80%;" /></td>
-<td align="center"><img src="./no_reverb/example145/clean.png" alt="flowtron_0.0" style="zoom: 80%;" /></td>
-</tr>
-</tbody></table>
-<table>
-<thead>
-<tr>
-<th align="center"><strong>case 4</strong></th>
-<th align="center"></th>
-</tr>
-</thead>
-<tbody><tr>
-<td align="center"><strong>Noisy</strong><br><audio controls><source src="./no_reverb/example206/noisy.wav" type="audio/wav">Your browser does not support the audio element.</audio></td>
-<td align="center"><strong>FullSubNet</strong><br><audio controls><source src="./no_reverb/example206/fullsubnet.wav" type="audio/wav">Your browser does not support the audio element.</audio></td>
-</tr>
-<tr>
-<td align="center"><strong><img src="./no_reverb/example206/noisy.png" alt="flowtron_0.0" style="zoom: 80%;" /></strong></td>
-<td align="center"><img src="./no_reverb/example206/fullsubnet.png" alt="flowtron_0.0" style="zoom: 80%;" /></td>
-</tr>
-<tr>
-<td align="center"><strong>FS-CANet</strong><br><audio controls><source src="./no_reverb/example206/fscanet.wav" type="audio/wav">Your browser does not support the audio element.</audio></td>
-<td align="center"><strong>FS-CANet</strong><br><audio controls><source src="./no_reverb/example206/clean.wav" type="audio/wav">Your browser does not support the audio element.</audio></td>
-</tr>
-<tr>
-<td align="center"><img src="./no_reverb/example206/fscanet.png" alt="flowtron_0.0" style="zoom: 80%;" /></td>
-<td align="center"><img src="./no_reverb/example206/clean.png" alt="flowtron_0.0" style="zoom: 80%;" /></td>
+<td align="center"><img src="./MAXIM/clean/1clean_fileid_411.png" alt="flowtron_0.0" style="zoom: 60%;" /></td>
 </tr>
 </tbody></table>
 
