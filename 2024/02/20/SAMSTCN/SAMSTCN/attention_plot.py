@@ -6,8 +6,8 @@ from matplotlib import rcParams
 import matplotlib
 
 
-path = r'E:\Blog\source\_posts\SAMSTCN\SAMSTCN\SAMSTCN_1\noisy_fileid_135.wav'
-save_path = r'E:\Blog\source\_posts\SAMSTCN\SAMSTCN\SAMSTCN_1\noisy_fileid_135.png'
+path = r'E:\Blog\source\_posts\SAMSTCN\SAMSTCN\DCCRN\noisy_fileid_135.wav'
+save_path = r'E:\Blog\source\_posts\SAMSTCN\SAMSTCN\DCCRN\noisy_fileid_135.png'
 f = wave.open(path, "rb")
 params = f.getparams()
 nchannels, sampwidth, framerate, nframes = params[:4]
