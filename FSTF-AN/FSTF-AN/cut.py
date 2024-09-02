@@ -6,8 +6,8 @@ import soundfile
 import librosa
 import librosa.display
 
-old_path = r'E:\Blog\source\_posts\Transformer-Enhance\Transformer-Enhance\rirnoisy\reverb_clean_fileid_105.wav'
-save_path = r'E:\Blog\source\_posts\Transformer-Enhance\Transformer-Enhance\rirnoisy_new\reverb_clean_fileid_105.wav'
+old_path = r'E:\Blog\source\_posts\FSTF-AN\FSTF-AN\clean\target_fileid_2651.wav'
+save_path = r'E:\Blog\source\_posts\FSTF-AN\FSTF-AN\target_fileid_2651.wav'
 
 data, samplerate = soundfile.read(old_path)
 

@@ -6,13 +6,13 @@ import soundfile
 import librosa
 import librosa.display
 
-old_path = r'E:\Blog\source\_posts\Transformer-Enhance\Transformer-Enhance\our\rirnoisy_fileid_3535.wav'
-save_path = r'E:\Blog\source\_posts\Transformer-Enhance\Transformer-Enhance\our\rirnoisy_fileid_3535.png'
+old_path = r'E:\Blog\source\_posts\FSTF-AN\FSTF-AN\DeFTAN\rirnoisy_fileid_2651.wav'
+save_path = r'E:\Blog\source\_posts\FSTF-AN\FSTF-AN\DeFTAN\rirnoisy_fileid_2651.png'
 
 data, samplerate = soundfile.read(old_path)
 
 soundfile.write('new.wav', data, samplerate, subtype='PCM_16')
-path = r"E:\Blog\source\_posts\Transformer-Enhance\Transformer-Enhance\new.wav"
+path = r"E:\Blog\source\_posts\FSTF-AN\FSTF-AN\new.wav"
 
 # 读取音频，采样率为44100Hz，持续时间为2秒
 y, sr = librosa.load(path, sr=16000)
