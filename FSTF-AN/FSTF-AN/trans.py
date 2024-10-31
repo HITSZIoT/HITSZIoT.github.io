@@ -6,8 +6,8 @@ import soundfile
 import librosa
 import librosa.display
 
-old_path = r'E:\我的\AS_Transformer_SE\our\reverb_clean_fileid_105.wav'
-save_path = r'E:\我的\AS_Transformer_SE\our\reverb_clean_fileid_105.png'
+old_path = r'E:\我的\Speech communication\test\noisy2.wav'
+save_path = r'E:\我的\Speech communication\test\noisy2.png'
 
 data, samplerate = soundfile.read(old_path)
 
@@ -16,6 +16,7 @@ path = r"E:\Blog\source\_posts\FSTF-AN\FSTF-AN\new.wav"
 
 # 读取音频，采样率为44100Hz，持续时间为2秒
 y, sr = librosa.load(path, sr=16000)
+# y = y[:80000]
 
 # 将 stft 之后的 幅度值的绝对值 转换为 分贝值，将返回值传入specshow()方法中
 data = librosa.amplitude_to_db(np.abs(librosa.stft(y)), ref=np.max)
