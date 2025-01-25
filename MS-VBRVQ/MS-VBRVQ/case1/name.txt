@@ -1,0 +1,3 @@
+EnCodec | 4.00kbps | ViSQOL=4.28
+MS-VBRVQ (sym) | 3.58Kbps | ViSQOL=4.33
+MS-VBRVQ (asym) | 3.72Kbps | ViSQOL=4.33
