@@ -6,13 +6,13 @@ import soundfile
 import librosa
 import librosa.display
 
-old_path = r'E:\我的\AS_Transformer_SE\our\reverb_clean_fileid_105.wav'
-save_path = r'E:\我的\AS_Transformer_SE\our\reverb_clean_fileid_105.png'
+old_path = r'E:\Blog\source\_posts\FSformer\FSformer\real\noisy2.wav'
+save_path = r'E:\Blog\source\_posts\FSformer\FSformer\real\noisy2.png'
 
 data, samplerate = soundfile.read(old_path)
 
 soundfile.write('new.wav', data, samplerate, subtype='PCM_16')
-path = r"E:\Blog\source\_posts\FSTF-AN\FSTF-AN\new.wav"
+path = r'E:\Blog\source\_posts\FSformer\FSformer\new.wav'
 
 # 读取音频，采样率为44100Hz，持续时间为2秒
 y, sr = librosa.load(path, sr=16000)
